@@ -1242,10 +1242,10 @@
     .btn.btn-icon:not(.btn-footer) i.fa,
     .navbar .navbar-nav > a.btn.btn-icon:not(.btn-footer) i.now-ui-icons,
     .navbar .navbar-nav > a.btn.btn-icon:not(.btn-footer) i.fa {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-12px, -12px);
+      position: relative;
+      top: 30%;
+      left: 0%;
+      transform: translate(0px, 0px);
       line-height: 1.5626rem;
       width: 25px; }
   .btn:not(.btn-icon) .now-ui-icons,
@@ -3800,7 +3800,7 @@ Created using IcoMoon - icomoon.io
     background-position: center center;
     width: 100%;
     height: 100%;
-    z-index: -1; }
+    z-index: 0; }
   .page-header footer {
     position: absolute;
     bottom: 0;
